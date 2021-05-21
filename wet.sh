@@ -22,4 +22,4 @@ TEMPERATURE=`echo "${JWETHER}" | jq '."current_condition"[] | ."temp_C"'`
 HUMIDITY=$(eval echo $HUMIDITY)
 TEMPERATURE=$(eval echo $TEMPERATURE)
 
-echo "City: $1 Temp: ${TEMPERATURE} Humidity: ${HUMIDITY}"
+echo "City: $1 Temp: ${TEMPERATURE} C, Humidity: ${HUMIDITY} %"
