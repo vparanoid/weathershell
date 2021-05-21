@@ -9,4 +9,4 @@ Usage:
 
 Example:
 ./wet.sh Perm
-City: Perm Temp: 23 Humidity: 47
+City: Perm Temp: 23 C, Humidity: 47 %
