@@ -22,7 +22,7 @@ City: Perm Temp: 23 C, Humidity: 47 %
 
 ### Prerequisites:
 > bash
-> cutl
+> curl
 > jq
 ```
 jq --version
